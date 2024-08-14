@@ -6,7 +6,6 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@de-syd-projx/reactjs";
-import { cn } from "@de-syd-projx/reactjs/lib/utils";
 
 const notifications = [
 	{
@@ -25,7 +24,7 @@ const notifications = [
 
 export default function Home() {
 	return (
-		<main className="flex min-h-screen flex-col items-center justify-between p-24 bg-slate-800">
+		<main className="flex min-h-screen flex-col items-center justify-between p-24">
 			<h1>Hello Cary</h1>
 			<Card className="w-[380px] p-5">
 				<CardHeader>
